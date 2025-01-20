@@ -3,7 +3,7 @@ layout: post
 title: Activities
 tags: [test, sample]
 ---
-Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem.
+In the activities section, I intend to showcase a detailed summary dashboard that compiles and presents data from various activities I have tracked, including running, hiking, and cycling. This dashboard will provide an organized overview of my engagement in these activities, highlighting metrics and progress over time.
 
 * Consectetur adipiscing elit
 * Donec a diam lectus
