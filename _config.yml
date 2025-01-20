@@ -16,7 +16,7 @@ theme_settings:
      <p>A personal Website for Duhyeon Kim (Thanks for visiting :)</p>
 
      <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
-  header_text_feature_image:
+  header_text_feature_image: assets/img/call_out_background.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
 

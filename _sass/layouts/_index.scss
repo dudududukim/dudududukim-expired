@@ -1,10 +1,11 @@
 // Header text feature
 .call-out {
-  @extend %padding-regular;
+  @extend %padding-large;
   display: inline-block;
   width: 100%;
   background-color:$header-desc-background-color;
   background-size: cover;
+  background-position: center;
   font-size: 1.3em;
   text-align: center;
   color: $header-desc-text-color;
