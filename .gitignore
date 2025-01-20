@@ -16,3 +16,14 @@ _site/
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
+
+# plainwhite-jekyll gitignore
+*.gem
+.bundle
+.sass-cache
+_site
+Gemfile.lock
+.DS_Store
+vendor
+.jekyll-cache
+tags

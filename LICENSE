@@ -1,17 +1,6 @@
-# dudududukim.github.io
+The MIT License (MIT)
 
-## 1. How it was built
-References
-- https://docs.github.com/ko/pages/quickstart
-- https://velog.io/@dksduddnr33/GitHub-Pages%EB%A7%8C%EB%93%A4%EA%B8%B01-jekyll-%ED%85%8C%EB%A7%88-%EC%A0%95%ED%95%98%EA%B8%B0
-- http://jekyllthemes.org
-
-
-## License
-
-This project is using [Type Theme](https://github.com/rohanchandra/type-theme) under the [MIT License](LICENSE).
-
-Copyright (c) 2025 Duhyeon Kim
+Copyright (c) 2014 Rohan Chandra
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
