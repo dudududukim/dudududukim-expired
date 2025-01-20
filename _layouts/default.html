@@ -2,6 +2,12 @@
 <html class="no-js">
   {% include head.html %}
   <body>
+    {% if site.theme_settings.homepage_making %}
+    <div id="homepage-making-banner" 
+      style="text-align: center; position: fixed; top: 0; width: 100%; background-color: yellow; z-index: 1000; height: 50px; line-height: 50px; padding-top: 11px;">
+      {{ site.theme_settings.homepage_making_text }}
+    </div>
+    {% endif %}
     {% include header.html %}
     <div class="content">
       {{ content }}

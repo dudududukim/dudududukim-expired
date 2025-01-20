@@ -50,6 +50,11 @@ theme_settings:
   katex: true # Enable if using math markup
   search: true # Enable the search feature
 
+  # still making?
+  homepage_making : true
+  homepage_making_text : >
+    <p>Still making the homepage (I'll finish it soon!)</p>
+
   # Localization strings
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"

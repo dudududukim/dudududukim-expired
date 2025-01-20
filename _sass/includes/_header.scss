@@ -5,6 +5,9 @@
   display: inline-block;
   float: left;
   width: 100%;
+  @if $homepage_making {
+    margin-top: 50px;
+  }
 
   a {
     color: $header-link-color;
