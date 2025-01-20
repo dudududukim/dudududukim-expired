@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-def color_overlap(image_path, output_path, color=(255, 255, 255), alpha=0.3):
+def color_overlap(image_path, output_path, color=(255, 255, 255), alpha=0.31):
     # Read the image
     image = cv2.imread(image_path)
     
