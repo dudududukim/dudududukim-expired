@@ -3,7 +3,7 @@ layout: post
 title: Activities
 tags: [test, sample]
 ---
-In the activities section, I intend to showcase a detailed summary dashboard that compiles and presents data from various activities I have tracked, including running, hiking, and cycling. This dashboard will provide an organized overview of my engagement in these activities, highlighting metrics and progress over time.
+In the activities section, planning to make dashboard for my running hiking and cycling :)
 
 * Consectetur adipiscing elit
 * Donec a diam lectus

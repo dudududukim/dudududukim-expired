@@ -3,7 +3,8 @@ layout: post
 title: Photography
 tags: [test, sample]
 ---
-In the photography section, I plan to showcase film camera photographs I've taken, presenting them in an organized and visually appealing way to highlight their unique textures and my creative perspective.
+
+For my Film {Photography}
 
 * Consectetur adipiscing elit
 * Donec a diam lectus
