@@ -48,7 +48,7 @@ theme_settings:
   google_analytics: "G-PL3J05TNB5"
   disqus_shortname:
   katex: true # Enable if using math markup
-  search: true # Enable the search feature
+  search: false # Enable the search feature
 
   # still making?
   homepage_making : true
