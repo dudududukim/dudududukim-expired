@@ -3,6 +3,8 @@ layout: post
 title: Electrical Engineering
 subtitle : Major
 tags: [career, digitalcircuit]
+# feature-title: Korea Univ.
+feature-img: "assets/img/korea_univ_overlap.jpg"
 ---
 
 **Education:** B.S. Electrical Engineering, Korea University, GPA 4.05/4.5  

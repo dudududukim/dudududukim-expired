@@ -15,6 +15,6 @@ def color_overlap(image_path, output_path, color=(255, 255, 255), alpha=0.31):
     cv2.imwrite(output_path, blended_image)
 
 # Example usage
-input_image_path = 'call_out_background.jpeg'
-output_image_path = 'call_out_background_color_overlap.jpeg'
+input_image_path = 'korea_univ.jpg'
+output_image_path = 'korea_univ_overlap.jpg'
 color_overlap(input_image_path, output_image_path)

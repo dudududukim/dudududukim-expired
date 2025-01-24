@@ -1,0 +1,26 @@
+#dashboard {
+    width: 90%;
+    margin: 20px auto; /* header 아래 20px 여백 */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+    @if $homepage_making {
+        margin-top: 70px; /* 배너 활성화 시 추가 여백 */
+    }
+}
+
+#activityChart {
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+.dashboard-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #333;
+}

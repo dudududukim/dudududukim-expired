@@ -7,23 +7,26 @@ theme_settings:
   # Meta
   title: Duhyeon Kim
   avatar: assets/img/avatar.png
-  favicon: assets/favicon.ico
+  favicon: assets/favicon.png
   gravatar: # Email MD5 hash
-  description: "A website that represents Me" # used by search engines
+  description:  # used by search engines
 
   # Header and footer text
   header_text: >
      <p>A personal Website for Duhyeon Kim (Thanks for visiting :)</p>
 
      <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+
   header_text_feature_image: assets/img/call_out_background.jpeg
-  footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
+  footer_text: |
+    <p>© 2025 <a href="mailto:kdhluck@naver.com">Duhyeon Kim</a>.
+    <br>
+    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>.</p>
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
-  behance:
+  email_address: kdhluck@naver.com # Full email address, e.g. "sam@example.com"
+  behance: 
   bitbucket:
   dribbble:
   facebook:
@@ -33,7 +36,7 @@ theme_settings:
   gitter:
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin: #https://www.linkedin.com/in/duhyeon-kim-6623082b1/ # Full URL
   pinterest:
   reddit:
   soundcloud:
