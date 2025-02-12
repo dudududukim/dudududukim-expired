@@ -1,26 +1,81 @@
-#dashboard {
-    width: 90%;
-    margin: 20px auto; /* header 아래 20px 여백 */
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$accent-color: #e74c3c;
+$background-color: #f4f6f7;
+$table-border-color: #ddd;
 
-    @if $homepage_making {
-        margin-top: 70px; /* 배너 활성화 시 추가 여백 */
-    }
+
+.dashboard {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  @media (max-width: 768px) {
+    padding: 10px;
+  }
 }
 
-#activityChart {
-    max-width: 100%;
-    margin-top: 40px;
+
+.summary {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+
+  @media (max-width: 768px) {
+    padding: 15px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 10px;
+  }
 }
 
-.dashboard-title {
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    color: #333;
+
+.activity-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid $table-border-color;
+
+  @media (max-width: 768px) {
+    font-size: 0.9em;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.8em;
+  }
+}
+
+.activity-table th, .activity-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid $table-border-color;
+
+  @media (max-width: 768px) {
+    padding: 8px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 6px;
+  }
+}
+
+.activity-table th {
+  background-color: $primary-color;
+  color: white;
+}
+
+.activity-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.activity-table tr:hover {
+  background-color: $secondary-color;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
 }

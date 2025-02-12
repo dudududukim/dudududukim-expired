@@ -22,7 +22,7 @@ fetch('/assets/data/cardioActivities.csv')
             }
 
             const parsedDate = new Date(date);
-            const month = parsedDate.toLocaleString('default', { month: 'short' });
+            const month = `${parsedDate.getFullYear()} ${parsedDate.toLocaleString('default', { month: 'short' })}`;;
 
             // 거리 필드 유효성 검사
             const parsedDistance = parseFloat(distance);

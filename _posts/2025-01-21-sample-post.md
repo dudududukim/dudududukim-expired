@@ -5,6 +5,7 @@ subtitle : Major
 tags: [career, digitalcircuit]
 # feature-title: Korea Univ.
 feature-img: "assets/img/korea_univ_overlap.jpg"
+sticky: true
 ---
 
 **Education:** B.S. Electrical Engineering, Korea University, GPA 4.05/4.5  
@@ -63,6 +64,6 @@ Self-motivated student passionate about digital circuit design, verification, an
 - **English**: OPIc IH, TOEIC 885
 
 #### Contact
-- **Phone**: +82 10-6654-9551  
-- **Email**: [kdhluck@naver.com](mailto:kdhluck@naver.com)  
-- **Address**: 119, Gireum-ro, Seongbuk-gu, Seoul, South Korea (221-dong, 1403-ho)
+📞 **Phone** : +82 10-6654-9551 <br>
+📧 **Email** : [kdhluck@naver.com](mailto:kdhluck@naver.com) <br>
+🏠 **Address**: 119, Gireum-ro, Seongbuk-gu, Seoul, South Korea (221-dong, 1403-ho)

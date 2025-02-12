@@ -7,6 +7,9 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
+# draft : markdown that does not completed
+_draft/
+
 # Additional Ruby/bundler ignore for when you run: bundle install
 /vendor
 

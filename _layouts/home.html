@@ -14,25 +14,50 @@ layout: default
   {% endif %}
 
   <div class="posts">
-    {% for post in paginator.posts %}
-    <div class="post-teaser">
-      <header>
-        <h1>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title }}
+
+    {% assign sticky_posts = site.posts | where: "sticky", true %}
+    {% for post in sticky_posts %}
+      <div class="post-teaser">
+        <header>
+          <h1>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title }}
+            </a>
+          </h1>
+          <p class="meta">
+            {{ post.date | date: "%B %-d, %Y UPDATED" }}
+          </p>
+        </header>
+        <div class="excerpt">
+          {{ post.excerpt }}
+          <a class="button" href="{{ post.url | relative_url }}">
+            {{ site.theme_settings.str_continue_reading }}
           </a>
-        </h1>
-        <p class="meta">
-          {{ post.date | date: "%B %-d, %Y UPDATED" }}
-        </p>
-      </header>
-      <div class="excerpt">
-        {{ post.excerpt }}
-        <a class="button" href="{{ post.url | relative_url }}">
-          {{ site.theme_settings.str_continue_reading }}
-        </a>
+        </div>
       </div>
-    </div>
+    {% endfor %}
+
+    {% for post in paginator.posts %}
+      {% unless post.sticky %}
+        <div class="post-teaser">
+          <header>
+            <h1>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title }}
+              </a>
+            </h1>
+            <p class="meta">
+              {{ post.date | date: "%B %-d, %Y UPDATED" }}
+            </p>
+          </header>
+          <div class="excerpt">
+            {{ post.excerpt }}
+            <a class="button" href="{{ post.url | relative_url }}">
+              {{ site.theme_settings.str_continue_reading }}
+            </a>
+          </div>
+        </div>
+      {% endunless %}
     {% endfor %}
   </div>
 
