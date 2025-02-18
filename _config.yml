@@ -91,3 +91,6 @@ plugins: [jekyll-paginate]
 exclude:
   - Gemfile
   - Gemfile.lock
+# Markdown Processing
+kramdown:
+  input: GFM
